@@ -50,3 +50,14 @@ if len(matches) > 0:
     print('\n'.join(matches))
 else:
     print('No phone numbers or email addresses found.')
+
+### Generating Random Quiz Files
+
+import random
+
+capitals = {'Alabama':'Montgomery', 'Alaska':'Juneau', 'Arizona':'Phoenix'}
+
+# Generate 35 quiz files.
+for quizNum in range(35):
+
+# TODO: Create the quiz and answer key files.
