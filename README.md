@@ -1,2 +1,2 @@
 # automate-the-boring-stuff
-Automate the Boring Stuff with Python code-along and projects
+Working through "Automate the Boring Stuff with Python" code-alongs and projects.
