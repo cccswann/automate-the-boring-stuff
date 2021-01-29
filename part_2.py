@@ -51,6 +51,8 @@ if len(matches) > 0:
 else:
     print('No phone numbers or email addresses found.')
 
+
+
 ### Generating Random Quiz Files
 
 import random
@@ -59,5 +61,8 @@ capitals = {'Alabama':'Montgomery', 'Alaska':'Juneau', 'Arizona':'Phoenix'}
 
 # Generate 35 quiz files.
 for quizNum in range(35):
+    quizFile = open('capitalsquiz%s.txt' % (quizNum +1), 'w')
+    answerKeyFile = open('capitalsquiz_answers%s.txt' % (quizNum +1), 'w')
 
-# TODO: Create the quiz and answer key files.
+    #Write out the header for the quiz
+    quizFile.write('Name:\n\nDate:\n\nPeriod:\n\n')
